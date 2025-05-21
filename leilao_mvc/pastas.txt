@@ -1,0 +1,44 @@
+leilao_mvc/
+│
+├── config/                  # Configurações do sistema
+│   ├── database.php         # Configuração de conexão com o banco
+│   └── config.php           # Configurações gerais
+│
+├── controllers/             # Controladores
+│   ├── AdminController.php  # Controlador para área administrativa
+│   ├── AuthController.php   # Controlador para autenticação
+│   ├── HomeController.php   # Controlador para página inicial
+│   ├── LanceController.php  # Controlador para lances
+│   └── LeilaoController.php # Controlador para leilões
+│
+├── models/                  # Modelos
+│   ├── Usuario.php          # Modelo para usuários
+│   ├── Produto.php          # Modelo para produtos
+│   ├── Lance.php            # Modelo para lances
+│   └── Leilao.php           # Modelo para leilões
+│
+├── views/                   # Visualizações
+│   ├── admin/               # Views da área administrativa
+│   ├── auth/                # Views de autenticação (login/registro)
+│   ├── leilao/              # Views de leilão
+│   ├── lance/               # Views de lance
+│   ├── home/                # Views da página inicial
+│   ├── shared/              # Componentes compartilhados
+│   └── templates/           # Templates base
+│
+├── public/                  # Arquivos públicos
+│   ├── css/                 # Estilos CSS
+│   ├── js/                  # Scripts JavaScript
+│   ├── images/              # Imagens
+│   └── uploads/             # Uploads de usuários
+│
+├── core/                    # Núcleo do sistema
+│   ├── App.php              # Classe principal da aplicação
+│   ├── Controller.php       # Classe base para controladores
+│   ├── Model.php            # Classe base para modelos
+│   ├── Database.php         # Classe para conexão com banco
+│   └── Router.php           # Roteador de URLs
+│
+├── helpers/                 # Funções auxiliares
+│
+└── index.php                # Ponto de entrada da aplicação

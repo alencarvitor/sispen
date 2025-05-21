@@ -1,0 +1,55 @@
+/* Dashboard layout para leilão e lance */
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.sold-items, .current-item, .all-items {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    flex: 1;
+}
+
+.current-item {
+    text-align: center;
+}
+
+.item-image img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.highest-bid {
+    background-color: #e6f7ff;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.highest-bid h4 {
+    margin: 0;
+    color: #1e3a8a;
+}
+
+.bids {
+    width: 100%;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .dashboard {
+        flex-direction: column;
+    }
+}
