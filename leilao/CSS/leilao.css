@@ -1,0 +1,155 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #b3e5fc, #0d47a1);
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    background-color: #0d47a1;
+    width: 100%;
+    padding: 15px 0;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    transition: color 0.3s ease;
+}
+
+nav ul li a:hover {
+    color: #b3e5fc;
+}
+
+.auction-status {
+    margin-top: 80px;
+    background-color: #0d47a1;
+    color: white;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.auction-status h2 {
+    margin: 0;
+    font-size: 24px;
+}
+
+.auction-status select {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+
+.dashboard {
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px 0;
+    gap: 20px;
+}
+
+.sold-items, .current-item, .all-items {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    flex: 1;
+}
+
+.current-item {
+    text-align: center;
+}
+
+.item-image img {
+    max-width: 100%;
+    max-height: 200px;
+    border-radius: 5px;
+}
+
+.highest-bid {
+    background-color: #b3e5fc;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.highest-bid h4 {
+    margin: 0;
+    color: #0d47a1;
+}
+
+.bids {
+    width: 90%;
+    max-width: 1200px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #0d47a1;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0d47a1;
+    color: white;
+}
+
+.action-btn {
+    background-color: #0d47a1;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.action-btn:hover {
+    background-color: #1565c0;
+}
+
+.action-btn:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+h3 {
+    color: #0d47a1;
+    margin-bottom: 10px;
+}

@@ -1,0 +1,127 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(to right, #b3e5fc, #0288d1);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.admin-container {
+    max-width: 500px;
+    padding: 40px;
+    border-radius: 12px;
+}
+
+.produto-container {
+    max-width: 600px;
+    padding: 30px;
+    margin: auto;
+}
+
+h1, h2 {
+    color: #0288d1;
+    margin-bottom: 20px;
+}
+
+h1 {
+    margin-bottom: 30px;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="number"],
+input[type="file"],
+button,
+input[type="submit"] {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"],
+button,
+.btn {
+    background-color: #0288d1;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+input[type="submit"]:hover,
+button:hover,
+.btn:hover {
+    background-color: #0277bd;
+}
+
+a {
+    color: #0288d1;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.error {
+    color: red;
+    margin-bottom: 10px;
+}
+
+.success {
+    color: green;
+    margin-bottom: 10px;
+}
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    border-radius: 6px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.logout {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.user-info {
+    text-align: right;
+    font-size: 14px;
+    margin-bottom: 10px;
+    color: #555;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0288d1;
+    color: white;
+}
